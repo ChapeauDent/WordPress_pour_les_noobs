@@ -1,0 +1,12 @@
+{
+  "name": "markdown-viewer-utils",
+  "version": "1.0.0",
+  "description": "Utilitaires pour le visualiseur de documentation markdown",
+  "scripts": {
+    "generate-files": "node scripts/generate-files-list.js",
+    "watch-files": "nodemon --watch fiches_markdown --ext md --exec \"npm run generate-files\""
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

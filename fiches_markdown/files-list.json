@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "/fiches_markdown/cours-wordpress-org-vs-com.md",
+      "title": "📄 Cours : Différencier WordPress.org et WordPress.com",
+      "description": "> Cours basé sur les ressources officielles de [WordPress.com](https://wordpress.com/support/com-vs-..."
+    },
+    {
+      "path": "/fiches_markdown/cours-familiarisation-wordpress.md",
+      "title": "📄 Cours : Familiarisation avec WordPress",
+      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
+    },
+    {
+      "path": "/fiches_markdown/cours-installer-wordpress-local.md",
+      "title": "📄 Cours : Installer WordPress avec Local WP",
+      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
+    },
+    {
+      "path": "/fiches_markdown/cours-principes-open-source.md",
+      "title": "📄 Cours : Principes de l'Open Source",
+      "description": "> Cours sur les fondements philosophiques, techniques et économiques de l'open source"
+    },
+    {
+      "path": "/fiches_markdown/cours-qu-est-ce-que-wordpress.md",
+      "title": "📄 Cours : Qu'est-ce que WordPress ?",
+      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/)"
+    },
+    {
+      "path": "/fiches_markdown/Roadmap-WordPress.md",
+      "title": "📄 Roadmap d'apprentissage WordPress pour débutants",
+      "description": "> Basée sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/)"
+    }
+  ],
+  "generated": "2025-07-11T08:59:01.511Z",
+  "count": 6
+}
