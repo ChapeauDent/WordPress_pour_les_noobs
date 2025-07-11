@@ -16,6 +16,11 @@
       "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
     },
     {
+      "path": "fiches_markdown/cours-personnalisation-themes-wordpress.md",
+      "title": "📄 Cours : Personnalisation visuelle avec les thèmes WordPress",
+      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
+    },
+    {
       "path": "fiches_markdown/cours-principes-open-source.md",
       "title": "📄 Cours : Principes de l'Open Source",
       "description": "> Cours sur les fondements philosophiques, techniques et économiques de l'open source"
@@ -29,8 +34,13 @@
       "path": "fiches_markdown/Roadmap-WordPress.md",
       "title": "📄 Roadmap d'apprentissage WordPress pour débutants",
       "description": "> Basée sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/)"
+    },
+    {
+      "path": "fiches_markdown/schema-surcharge-css-themes-enfants.md",
+      "title": "📄 Schéma : Surcharge CSS avec les Thèmes Enfants WordPress",
+      "description": "Ce schéma illustre comment un thème enfant permet de surcharger les styles CSS d'un thème parent, en..."
     }
   ],
-  "generated": "2025-07-11T10:12:21.901Z",
-  "count": 6
+  "generated": "2025-07-11T13:16:42.204Z",
+  "count": 8
 }

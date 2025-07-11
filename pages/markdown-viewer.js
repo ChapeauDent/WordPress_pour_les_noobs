@@ -116,6 +116,69 @@
             window.addEventListener('scroll', updateActiveLink);
             updateActiveLink(); // Appel initial
         }
+
+        // Fonction pour initialiser Mermaid
+        function initializeMermaid() {
+            if (typeof mermaid !== 'undefined') {
+                mermaid.initialize({
+                    startOnLoad: false,
+                    theme: 'default',
+                    securityLevel: 'loose',
+                    flowchart: {
+                        useMaxWidth: true,
+                        htmlLabels: true
+                    }
+                });
+            }
+        }
+
+        // Fonction pour traiter les diagrammes Mermaid
+        async function renderMermaidDiagrams() {
+            if (typeof mermaid === 'undefined') {
+                console.warn('Mermaid.js n\'est pas chargé');
+                return;
+            }
+
+            // Trouver tous les blocs de code mermaid
+            const mermaidBlocks = content.querySelectorAll('pre code.language-mermaid, pre code[class*="mermaid"]');
+            
+            for (let i = 0; i < mermaidBlocks.length; i++) {
+                const block = mermaidBlocks[i];
+                const mermaidCode = block.textContent;
+                
+                try {
+                    // Créer un ID unique pour le diagramme
+                    const diagramId = `mermaid-diagram-${i}`;
+                    
+                    // Créer un conteneur pour le diagramme
+                    const diagramContainer = document.createElement('div');
+                    diagramContainer.className = 'mermaid-diagram';
+                    diagramContainer.id = diagramId;
+                    
+                    // Remplacer le bloc de code par le conteneur
+                    const preElement = block.closest('pre');
+                    preElement.parentNode.replaceChild(diagramContainer, preElement);
+                    
+                    // Rendre le diagramme Mermaid
+                    const { svg } = await mermaid.render(`${diagramId}-svg`, mermaidCode);
+                    diagramContainer.innerHTML = svg;
+                    
+                } catch (error) {
+                    console.error('Erreur lors du rendu Mermaid:', error);
+                    // En cas d'erreur, afficher le code original
+                    const errorContainer = document.createElement('div');
+                    errorContainer.className = 'mermaid-error';
+                    errorContainer.innerHTML = `
+                        <p style="color: red; font-weight: bold;">Erreur dans le diagramme Mermaid:</p>
+                        <pre><code>${mermaidCode}</code></pre>
+                        <p style="color: red; font-size: 0.9em;">${error.message}</p>
+                    `;
+                    const preElement = block.closest('pre');
+                    preElement.parentNode.replaceChild(errorContainer, preElement);
+                }
+            }
+        }
+
         // Fonction pour charger un fichier Markdown
         async function loadMarkdownFile(filename) {
             if (!filename) {
@@ -142,6 +205,9 @@
                     hljs.highlightElement(block);
                 });
 
+                // Traiter les diagrammes Mermaid
+                await renderMermaidDiagrams();
+
                 // Générer la table des matières dans la sidebar
                 generateSidebarTOC();
 
@@ -165,6 +231,9 @@
 
         // Charger la liste des fichiers et le premier fichier par défaut
         window.addEventListener('load', async () => {
+            // Initialiser Mermaid
+            initializeMermaid();
+            
             await loadFilesList();
             
             // Charger le premier fichier disponible par défaut

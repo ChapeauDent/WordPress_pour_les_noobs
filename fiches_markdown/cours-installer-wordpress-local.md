@@ -1109,7 +1109,7 @@ git commit -m "Initial WordPress installation"
 1. **Pratiquez** la création de plusieurs sites
 2. **Explorez** tous les onglets de l'interface Local
 3. **Testez** différents environnements (PHP, serveurs)
-4. **Familiarisez-vous** avec WordPress de base
+4. [**Familiarisez-vous** avec WordPress de base](cours-familiarisation-wordpress.md)
 
 **Court terme (ce mois) :**
 1. **Apprenez Gutenberg** en profondeur

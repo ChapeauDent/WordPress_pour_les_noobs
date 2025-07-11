@@ -790,3 +790,64 @@
                 transform: translateY(0);
             }
         }
+
+        /* === STYLES MERMAID DIAGRAMS === */
+        .mermaid-diagram {
+            margin: 2rem 0;
+            text-align: center;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: 8px;
+            padding: 1rem;
+            overflow-x: auto;
+            box-shadow: var(--shadow-light);
+        }
+
+        .mermaid-diagram svg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .mermaid-error {
+            background: var(--error-bg);
+            border: 1px solid var(--error-border);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .mermaid-error p {
+            margin: 0.5rem 0;
+            color: var(--error-color);
+        }
+
+        .mermaid-error pre {
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid var(--border-light);
+            border-radius: 4px;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            font-size: 0.9em;
+        }
+
+        /* Responsive design pour les diagrammes */
+        @container main-content (max-width: 768px) {
+            .mermaid-diagram {
+                margin: 1rem 0;
+                padding: 0.5rem;
+            }
+            
+            .mermaid-diagram svg {
+                font-size: 12px;
+            }
+        }
+
+        /* Dark mode pour Mermaid (si nécessaire) */
+        @media (prefers-color-scheme: dark) {
+            .mermaid-diagram {
+                background: #1a1a1a;
+                border-color: #333;
+            }
+        }
