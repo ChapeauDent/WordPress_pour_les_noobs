@@ -67,7 +67,7 @@ WordPress vous accueille avec le tableau de bord - votre centre de contrôle pri
 
 ## Interface d'administration : Vue d'ensemble
 
-![Interface d'administration WordPress](/assets/Interface_administration_mon-site-wordpress_local.jpeg)
+![Interface d'administration WordPress](assets/Interface_administration_mon-site-wordpress_local.jpeg)
 
 ### La barre d'administration (Admin Bar)
 
@@ -209,7 +209,7 @@ WordPress vous accueille avec le tableau de bord - votre centre de contrôle pri
 - **Pages** : Contenu statique et intemporel
 
 ### Interface de gestion des articles
-![Interface de gestion des articles WordPress](/assets/Interface_gestion_des_articles_mon-site-wordpress_local.jpeg)
+![Interface de gestion des articles WordPress](assets/Interface_gestion_des_articles_mon-site-wordpress_local.jpeg)
 **Page "Tous les articles" :**
 
 **Vue en liste :**
@@ -302,7 +302,7 @@ WordPress vous accueille avec le tableau de bord - votre centre de contrôle pri
 ---
 
 ## Gestion des pages
-![Interface de gestion des pages WordPress](/assets/Interface_gestion_des_pages_mon-site-wordpress_local.jpeg)
+![Interface de gestion des pages WordPress](assets/Interface_gestion_des_pages_mon-site-wordpress_local.jpeg)
 ### Qu'est-ce qu'une page WordPress ?
 
 **Les pages sont du contenu statique :**
@@ -389,7 +389,7 @@ WordPress vous accueille avec le tableau de bord - votre centre de contrôle pri
 - **Vidéo** : MP4, AVI, MOV (attention à la taille)
 
 ### Interface de la médiathèque
-![Interface de la médiathèque WordPress](/assets/Interface_mediatheque_mon-site-wordpress_local.jpeg)
+![Interface de la médiathèque WordPress](assets/Interface_mediatheque_mon-site-wordpress_local.jpeg)
 **Vue grille (par défaut) :**
 - Miniatures des médias en grille
 - Aperçu visuel rapide

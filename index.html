@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress pour les Nuls - Documentation</title>
+    
+    <!-- Marked.js pour parser le Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <!-- Highlight.js pour la coloration syntaxique (thème clair) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    
+    <!-- Styles personnalisés -->
+    <link rel="stylesheet" href="pages/markdown-viewer.css">
+    
+    <!-- Meta tags pour les réseaux sociaux -->
+    <meta property="og:title" content="WordPress pour les Nuls - Documentation">
+    <meta property="og:description" content="Guide complet d'apprentissage WordPress pour débutants">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Documentation complète WordPress pour débutants - Apprenez WordPress étape par étape">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 WordPress pour les Nuls</h1>
+            <p>Documentation complète pour apprendre WordPress étape par étape</p>
+            <div style="margin-top: 15px;">
+                <a href="https://github.com/ChapeauDent/WordPress_pour_les_nuls" target="_blank" 
+                   style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px; margin: 0 5px;">
+                    📚 Code Source
+                </a>
+                <a href="https://wordpress.org/download/" target="_blank" 
+                   style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px; margin: 0 5px;">
+                    ⬇️ Télécharger WordPress
+                </a>
+            </div>
+        </div>
+
+        <div class="file-selector">
+            <select id="fileSelector">
+                <option value="">Chargement des fichiers...</option>
+            </select>
+        </div>
+
+        <!-- Sidebar avec table des matières -->
+        <div class="sidebar">
+            <div id="toc-container" class="toc-sidebar">
+                <h3>📖 Navigation</h3>
+                <div id="toc-content">
+                    <p style="color: var(--text-light); font-style: italic;">Chargez un document pour voir la table des matières</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenu principal -->
+        <div class="main-content">
+            <div id="content" class="markdown-content">
+                <div class="loading">Chargement de la documentation WordPress...</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Script principal -->
+    <script src="pages/markdown-viewer.js"></script>
+    
+    <!-- Analytics Google (optionnel) -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    -->
+</body>
+</html>
