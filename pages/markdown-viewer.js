@@ -19,7 +19,7 @@
         // Fonction pour charger la liste des fichiers disponibles
         async function loadFilesList() {
             try {
-                const response = await fetch('/fiches_markdown/files-list.json');
+                const response = await fetch('fiches_markdown/files-list.json');
                 if (!response.ok) {
                     throw new Error(`Erreur ${response.status}: ${response.statusText}`);
                 }

@@ -71,7 +71,7 @@ function generateFilesList() {
                 const description = extractDescription(filePath);
                 
                 return {
-                    path: `/fiches_markdown/${file}`,
+                    path: `fiches_markdown/${file}`,
                     title: `📄 ${title}`,
                     description: description
                 };
