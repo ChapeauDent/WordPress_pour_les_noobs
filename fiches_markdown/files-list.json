@@ -1,34 +1,74 @@
 {
   "files": [
     {
-      "path": "fiches_markdown/cours-wordpress-org-vs-com.md",
-      "title": "📄 Cours : Différencier WordPress.org et WordPress.com",
-      "description": "> Cours basé sur les ressources officielles de [WordPress.com](https://wordpress.com/support/com-vs-..."
-    },
-    {
-      "path": "fiches_markdown/cours-familiarisation-wordpress.md",
-      "title": "📄 Cours : Familiarisation avec WordPress",
-      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
-    },
-    {
-      "path": "fiches_markdown/cours-installer-wordpress-local.md",
-      "title": "📄 Cours : Installer WordPress avec Local WP",
-      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
-    },
-    {
-      "path": "fiches_markdown/cours-personnalisation-themes-wordpress.md",
-      "title": "📄 Cours : Personnalisation visuelle avec les thèmes WordPress",
-      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
-    },
-    {
       "path": "fiches_markdown/cours-principes-open-source.md",
       "title": "📄 Cours : Principes de l'Open Source",
       "description": "> Cours sur les fondements philosophiques, techniques et économiques de l'open source"
     },
     {
       "path": "fiches_markdown/cours-qu-est-ce-que-wordpress.md",
-      "title": "📄 Cours : Qu'est-ce que WordPress ?",
+      "title": "📄 Cours 001 : Qu'est-ce que WordPress ?",
       "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/)"
+    },
+    {
+      "path": "fiches_markdown/cours-wordpress-org-vs-com.md",
+      "title": "📄 Cours 002 : Différencier WordPress.org et WordPress.com",
+      "description": "> Cours basé sur les ressources officielles de [WordPress.com](https://wordpress.com/support/com-vs-..."
+    },
+    {
+      "path": "fiches_markdown/cours-installer-wordpress-local.md",
+      "title": "📄 Cours 003 : Installer WordPress avec Local WP",
+      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
+    },
+    {
+      "path": "fiches_markdown/cours-familiarisation-wordpress.md",
+      "title": "📄 Cours 004 : Familiarisation avec WordPress",
+      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
+    },
+    {
+      "path": "fiches_markdown/cours-personnalisation-themes-wordpress.md",
+      "title": "📄 Cours 005 : Personnalisation visuelle avec les thèmes WordPress",
+      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
+    },
+    {
+      "path": "fiches_markdown/cours-optimisation-seo-technique-wordpress.md",
+      "title": "📄 Cours 006 : Optimisation SEO technique WordPress",
+      "description": "> Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) e..."
+    },
+    {
+      "path": "fiches_markdown/cours-01-preparation-environnement-developpement-themes.md",
+      "title": "📄 Cours 007 : Préparation de l'Environnement de Développement pour Thèmes WordPress",
+      "description": "Ce premier cours vous guide dans la mise en place d'un environnement de développement professionnel ..."
+    },
+    {
+      "path": "fiches_markdown/cours-02-concepts-fondamentaux-hierarchie-templates.md",
+      "title": "📄 Cours 008 : Concepts Fondamentaux et Hiérarchie des Templates WordPress",
+      "description": "Ce cours vous enseigne les concepts essentiels pour comprendre le fonctionnement interne des thèmes ..."
+    },
+    {
+      "path": "fiches_markdown/cours-03-maitrise-functions-php-fonctionnalites-avancees.md",
+      "title": "📄 Cours 009 : Maîtrise du fichier functions.php et Fonctionnalités Avancées",
+      "description": "Le fichier `functions.php` est le cerveau de votre thème WordPress. Il permet d'ajouter des fonction..."
+    },
+    {
+      "path": "fiches_markdown/cours-04-design-systeme-css-modulaire-responsive.md",
+      "title": "📄 Cours 010 : Design et Système CSS Modulaire Responsive",
+      "description": "Le design de votre thème WordPress est crucial pour l'expérience utilisateur. Ce cours vous enseigne..."
+    },
+    {
+      "path": "fiches_markdown/cours-05-integration-wordpress-avancee-custom-post-types-acf.md",
+      "title": "📄 Cours 011 : Intégration WordPress Avancée - Custom Post Types et ACF",
+      "description": "Ce cours vous enseigne à exploiter pleinement la puissance de WordPress en créant des types de conte..."
+    },
+    {
+      "path": "fiches_markdown/cours-06-optimisation-securite-deploiement-production.md",
+      "title": "📄 Cours 012 : Optimisation, Sécurité et Déploiement Production",
+      "description": "Ce cours final vous enseigne à optimiser votre thème WordPress pour les performances, la sécurité et..."
+    },
+    {
+      "path": "fiches_markdown/ressources-developpement-themes-wordpress.md",
+      "title": "📄 Ressources pour le Développement de Thèmes WordPress Personnalisés",
+      "description": "- **URL**: https://developer.wordpress.org/themes/"
     },
     {
       "path": "fiches_markdown/Roadmap-WordPress.md",
@@ -41,6 +81,6 @@
       "description": "Ce schéma illustre comment un thème enfant permet de surcharger les styles CSS d'un thème parent, en..."
     }
   ],
-  "generated": "2025-07-11T13:16:42.204Z",
-  "count": 8
+  "generated": "2025-07-11T14:43:57.538Z",
+  "count": 16
 }

@@ -687,7 +687,34 @@
         .image-zoom-modal img {
             animation: zoomIn 0.3s ease-out;
         }
+        /* === ANIMATION LOGO === */
+        #logo-container {
+            display: inline-block;
+            transform: scale(1.5);
+            margin: 0 20px;
+            padding-bottom: 20px;
+        }
         
+        #logo-noobs {
+            transition: var(--transition-base);
+        }
+        
+        #logo-noobs .cls-1 {
+            transition: var(--transition-base);
+        }
+        
+        #logo-noobs:hover .cls-1 {
+            stroke-dasharray: 2070.82;
+            stroke-dashoffset: 2070.82;
+            animation: drawPath 3s ease-in-out forwards;
+        }
+
+        @keyframes drawPath {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+
         /* === RESPONSIVE MOBILE === */
         
         /* Optimisations tactiles pour mobile */

@@ -1,4 +1,4 @@
-# Cours : Installer WordPress avec Local WP
+# Cours 003 : Installer WordPress avec Local WP
 
 > Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) et la documentation de [Local by WP Engine](https://localwp.com/help-docs/)
 

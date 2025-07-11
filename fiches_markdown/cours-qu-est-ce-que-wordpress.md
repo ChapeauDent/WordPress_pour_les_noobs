@@ -1,4 +1,4 @@
-# Cours : Qu'est-ce que WordPress ?
+# Cours 001 : Qu'est-ce que WordPress ?
 
 > Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/)
 

@@ -1,4 +1,4 @@
-# Cours : Personnalisation visuelle avec les thèmes WordPress
+# Cours 005 : Personnalisation visuelle avec les thèmes WordPress
 
 > Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) et votre site local "Mon Site WordPress"
 

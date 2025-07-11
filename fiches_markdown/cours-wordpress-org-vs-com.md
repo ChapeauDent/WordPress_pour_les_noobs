@@ -1,4 +1,4 @@
-# Cours : Différencier WordPress.org et WordPress.com
+# Cours 002 : Différencier WordPress.org et WordPress.com
 
 > Cours basé sur les ressources officielles de [WordPress.com](https://wordpress.com/support/com-vs-org/) et [WordPress.org](https://wordpress.org/)
 

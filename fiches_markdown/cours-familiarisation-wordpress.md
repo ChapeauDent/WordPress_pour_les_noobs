@@ -1,4 +1,4 @@
-# Cours : Familiarisation avec WordPress
+# Cours 004 : Familiarisation avec WordPress
 
 > Cours basé sur les ressources officielles de [learn.wordpress.org](https://learn.wordpress.org/) et votre site local "Mon Site WordPress"
 
