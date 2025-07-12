@@ -1,10 +1,6 @@
-# 🎓 WordPress pour les Nuls
+# 🎓 WordPress pour les Noobs
 
 Documentation complète pour apprendre WordPress étape par étape.
-
-## 🌐 Site Web
-
-**Visitez la documentation en ligne :** [https://chapeaudent.github.io/WordPress_pour_les_nuls/](https://chapeaudent.github.io/WordPress_pour_les_nuls/)
 
 ## 📚 Contenu
 
@@ -55,10 +51,6 @@ Les contributions sont les bienvenues !
 3. Commit (`git commit -m 'Ajout nouvelle fonctionnalité'`)
 4. Push (`git push origin feature/nouvelle-fonctionnalite`)
 5. Ouvrir une Pull Request
-
-## 📝 Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👨‍💻 Auteur
 
